@@ -1,11 +1,12 @@
 // @flow
 
 import debounce from 'lodash/debounce';
+import type { Dispatch } from 'redux';
 
 import { pinParticipant, getPinnedParticipant } from '../base/participants';
 import { StateListenerRegistry, equals } from '../base/redux';
 import { isFollowMeActive } from '../follow-me';
-import { selectParticipant } from '../large-video/actions';
+import { selectParticipant } from '../large-video/actions.any';
 
 import { setRemoteParticipantsWithScreenShare } from './actions';
 
@@ -33,14 +34,14 @@ StateListenerRegistry.register(
 StateListenerRegistry.register(
     /* selector */ state => state['features/base/tracks'],
     /* listener */ debounce((tracks, store) => {
-        if (!_getAutoPinSetting() || isFollowMeActive(store)) {
+        if (!getAutoPinSetting() || isFollowMeActive(store)) {
             return;
         }
 
         const oldScreenSharesOrder = store.getState()['features/video-layout'].remoteScreenShares || [];
         const knownSharingParticipantIds = tracks.reduce((acc, track) => {
             if (track.mediaType === 'video' && track.videoType === 'desktop') {
-                const skipTrack = _getAutoPinSetting() === 'remote-only' && track.local;
+                const skipTrack = getAutoPinSetting() === 'remote-only' && track.local;
 
                 if (!skipTrack) {
                     acc.push(track.participantId);
@@ -68,7 +69,7 @@ StateListenerRegistry.register(
             store.dispatch(
                 setRemoteParticipantsWithScreenShare(newScreenSharesOrder));
 
-            _updateAutoPinnedParticipant(oldScreenSharesOrder, store);
+            updateAutoPinnedParticipant(oldScreenSharesOrder, store);
         }
     }, 100));
 
@@ -81,7 +82,7 @@ StateListenerRegistry.register(
  * means automatically pin all screenshares. Falsy means do not automatically
  * pin any screenshares.
  */
-function _getAutoPinSetting() {
+export function getAutoPinSetting() {
     return typeof interfaceConfig === 'object'
         ? interfaceConfig.AUTO_PIN_LATEST_SCREEN_SHARE
         : 'remote-only';
@@ -96,7 +97,8 @@ function _getAutoPinSetting() {
  * @param {Store} store - The redux store.
  * @returns {void}
  */
-function _updateAutoPinnedParticipant(screenShares, { dispatch, getState }) {
+export function updateAutoPinnedParticipant(
+        screenShares: Array<string>, { dispatch, getState }: { dispatch: Dispatch<any>, getState: Function }) {
     const state = getState();
     const remoteScreenShares = state['features/video-layout'].remoteScreenShares;
     const pinned = getPinnedParticipant(getState);
