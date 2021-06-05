@@ -357,7 +357,7 @@
         "answer": "Answer",
         "audioCallTitle": "Incoming call",
         "decline": "Dismiss",
-        "productLabel": "from Jitsi Meet",
+        "productLabel": "from SEF Digital Meet",
         "videoCallTitle": "Incoming video call"
     },
     "info": {
@@ -523,7 +523,7 @@
         "newDeviceAudioTitle": "New audio device detected",
         "newDeviceAction": "Use",
         "OldElectronAPPTitle": "Security vulnerability!",
-        "oldElectronClientDescription1": "You appear to be using an old version of the Jitsi Meet client which has known security vulnerabilities. Please make sure you update to our ",
+        "oldElectronClientDescription1": "You appear to be using an old version of the SEF Digital Meet client which has known security vulnerabilities. Please make sure you update to our ",
         "oldElectronClientDescription2": "latest build",
         "oldElectronClientDescription3": " now!"
     },
@@ -929,7 +929,7 @@
         "getHelp": "Get help",
         "go": "GO",
         "goSmall": "GO",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "SEF Digital Meet",
         "headerSubtitle": "Secure and high quality meetings",
         "info": "Dial-in info",
         "join": "CREATE / JOIN",

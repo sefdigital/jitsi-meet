@@ -1,18 +1,18 @@
-# Jitsi Meet - Secure, Simple and Scalable Video Conferences
+# SEF Digital Meet - Secure, Simple and Scalable Video Conferences
 
-Jitsi Meet is an open-source (Apache) WebRTC JavaScript application that uses [Jitsi Videobridge](https://jitsi.org/videobridge) to provide high quality, [secure](https://jitsi.org/security) and scalable video conferences. Jitsi Meet in action can be seen at [here at the session #482 of the VoIP Users Conference](http://youtu.be/7vFUVClsNh0).
+SEF Digital Meet is an open-source (Apache) WebRTC JavaScript application that uses [Jitsi Videobridge](https://jitsi.org/videobridge) to provide high quality, [secure](https://jitsi.org/security) and scalable video conferences. SEF Digital Meet in action can be seen at [here at the session #482 of the VoIP Users Conference](http://youtu.be/7vFUVClsNh0).
 
-The Jitsi Meet client runs in your browser, without installing anything on your computer. You can try it out at https://meet.jit.si.
+The SEF Digital Meet client runs in your browser, without installing anything on your computer. You can try it out at https://meet.jit.si.
 
-Jitsi Meet allows for very efficient collaboration. Users can stream their desktop or only some windows. It also supports shared document editing with Etherpad.
+SEF Digital Meet allows for very efficient collaboration. Users can stream their desktop or only some windows. It also supports shared document editing with Etherpad.
 
 **NOTE:** If you are looking for Jitsi as a Service (JaaS) please start [here](https://jaas.8x8.vc).
 
 ## Installation
 
-On the client side, no installation is necessary. You just point your browser to the URL of your deployment. This section is about installing a Jitsi Meet suite on your server and hosting your own conferencing service.
+On the client side, no installation is necessary. You just point your browser to the URL of your deployment. This section is about installing a SEF Digital Meet suite on your server and hosting your own conferencing service.
 
-Installing Jitsi Meet is a simple experience. For Debian-based system, following the [quick install](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart) document, which uses the package system. You can also see a demonstration of the process in [this tutorial video](https://jitsi.org/tutorial).
+Installing SEF Digital Meet is a simple experience. For Debian-based system, following the [quick install](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart) document, which uses the package system. You can also see a demonstration of the process in [this tutorial video](https://jitsi.org/tutorial).
 
 For other systems, or if you wish to install all components manually, see the [detailed manual installation instructions](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-manual).
 
@@ -52,7 +52,7 @@ You can also sign up for our open beta testing here:
 
 ## Release notes
 
-Release notes for Jitsi Meet are maintained on [this repository](https://github.com/jitsi/jitsi-meet-release-notes).
+Release notes for SEF Digital Meet are maintained on [this repository](https://github.com/jitsi/jitsi-meet-release-notes).
 
 ## Development
 
@@ -60,12 +60,12 @@ For web development see [here](https://jitsi.github.io/handbook/docs/dev-guide/d
 
 ## Contributing
 
-If you are looking to contribute to Jitsi Meet, first of all, thank you! Please
+If you are looking to contribute to SEF Digital Meet, first of all, thank you! Please
 see our [guidelines for contributing](CONTRIBUTING.md).
 
 ## Embedding in external applications
 
-Jitsi Meet provides a very flexible way of embedding in external applications by using the [Jitsi Meet API](doc/api.md).
+SEF Digital Meet provides a very flexible way of embedding in external applications by using the [SEF Digital Meet API](doc/api.md).
 
 ## Security
 
@@ -75,8 +75,8 @@ The section on end-to-end encryption in that document is likely going to be one 
 
 ## Security issues
 
-For information on reporting security vulnerabilities in Jitsi Meet, see [SECURITY.md](./SECURITY.md).
+For information on reporting security vulnerabilities in SEF Digital Meet, see [SECURITY.md](./SECURITY.md).
 
 ## Acknowledgements
 
-Jitsi Meet started out as a sample conferencing application using Jitsi Videobridge. It was originally developed by ESTOS' developer Philipp Hancke who then contributed it to the community where development continues with joint forces!
+SEF Digital Meet started out as a sample conferencing application using Jitsi Videobridge. It was originally developed by ESTOS' developer Philipp Hancke who then contributed it to the community where development continues with joint forces!

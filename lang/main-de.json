@@ -356,7 +356,7 @@
         "answer": "Antworten",
         "audioCallTitle": "Eingehender Anruf",
         "decline": "OK",
-        "productLabel": "von Jitsi Meet",
+        "productLabel": "von SEF Digital Meet",
         "videoCallTitle": "Eingehender Videoanruf"
     },
     "info": {
@@ -927,7 +927,7 @@
         "getHelp": "Hilfe",
         "go": "Los",
         "goSmall": "Los",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "SEF Digital Meet",
         "headerSubtitle": "Sichere und hochqualitative Meetings",
         "info": "Einwahlinformationen",
         "join": "ERSTELLEN / BEITRETEN",
