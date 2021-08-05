@@ -56,7 +56,8 @@ $overflowMenuItemBackground: #36383C;
  * Video layout
  */
 $videoThumbnailHovered: rgba(22, 94, 204, .4);
-$videoThumbnailSelected: #165ECC;
+$videoThumbnailSelected: white;
+$videoThumbnailSelectedBlurRadius: 0px;
 $participantNameColor: #fff;
 $thumbnailPictogramColor: #fff;
 $dominantSpeakerBg: #165ecc;

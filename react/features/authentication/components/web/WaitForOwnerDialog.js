@@ -99,6 +99,7 @@ class WaitForOwnerDialog extends PureComponent<Props> {
             t
         } = this.props;
 
+        console.log(room);
         return (
             <Dialog
                 hideCloseIconButton = { true }

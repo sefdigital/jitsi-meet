@@ -23,7 +23,7 @@
  * TODO: when the old filmstrip has been removed, remove the "new-" prefix.
  */
 .new-toolbox {
-    bottom: calc((#{$newToolbarSize} * 2) * -1);
+    bottom: calc((#{$newToolbarSize} * 3) * -1);
     left: 0;
     position: absolute;
     right: 0;
@@ -119,6 +119,36 @@
         &:first-child {
             margin-left: 0;
         }
+    }
+}
+
+.toolbox-logo {
+    display: none;
+}
+
+@media (min-width: 581px) {
+    .toolbox-logo {
+        display: inline-block;
+        z-index: 100;
+        max-height: 36px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 3px;
+        margin-bottom: -12px;
+    }
+}
+
+.toolbox-title {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-style: italic;
+    }
+
+@media (min-width: 581px) {
+    .toolbox-title {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 24px;
     }
 }
 
