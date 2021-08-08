@@ -8,14 +8,14 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="300mm"
-   height="300mm"
-   viewBox="0 0 300 299.99998"
+   width="350mm"
+   height="350mm"
+   viewBox="0 0 350 349.99998"
    version="1.1"
    id="svg8"
-   sodipodi:docname="SEF_Digital_Quadratisch.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   inkscape:export-filename="C:\Users\Stefan\OneDrive\Dokumente\Geschäftlich\SEF\SEF Digital\Corporate Design\Logo\V1\SEF_Digital_Logo.png"
+   sodipodi:docname="SEF_Digital_Logo_Quadratisch_mehr Rand.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="C:\Users\Stefan\OneDrive\Dokumente\Geschäftlich\SEF\SEF Digital\Corporate Design\Logo\V2\PNG\SEF_Digital_IG PB.png"
    inkscape:export-xdpi="167.96765"
    inkscape:export-ydpi="167.96765">
   <sodipodi:namedview
@@ -27,20 +27,32 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1121"
+     inkscape:window-width="1500"
+     inkscape:window-height="937"
      id="namedview14"
      showgrid="false"
-     inkscape:zoom="0.46620975"
-     inkscape:cx="1023.0932"
-     inkscape:cy="394.58783"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:zoom="0.9324195"
+     inkscape:cx="430.78738"
+     inkscape:cy="764.82997"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0" />
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient856-2">
+      <stop
+         style="stop-color:#3b82f6;stop-opacity:1;"
+         offset="0"
+         id="stop852" />
+      <stop
+         style="stop-color:#7c3aed;stop-opacity:1"
+         offset="1"
+         id="stop854" />
+    </linearGradient>
     <rect
        x="279.71384"
        y="93.130775"
@@ -53,6 +65,15 @@
        width="174.79614"
        height="70.372475"
        id="rect841" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient856-2"
+       id="linearGradient875"
+       x1="636.91998"
+       y1="660.34985"
+       x2="991.69928"
+       y2="660.34985"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata5">
@@ -69,9 +90,18 @@
   <g
      id="layer1"
      transform="translate(9.3600183,-58.663647)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.00013;stroke-linejoin:round"
+       id="rect877"
+       width="368.32047"
+       height="362.07776"
+       x="-15.602737"
+       y="54.691006"
+       rx="2.4568679"
+       ry="2.4568679" />
     <g
        id="g106"
-       transform="translate(-1.1260659,84.075308)">
+       transform="translate(23.873942,109.07532)">
       <text
          xml:space="preserve"
          id="text839"
@@ -104,7 +134,7 @@
              class="st1"
              d="m 991.69928,579.35 c -0.02,1.42 -0.06,2.82999 -0.13,4.23999 -0.36,9.01998 -1.45,17.84997 -3.20999,26.42995 0,0.04 -0.01,0.07 -0.02,0.11 -12.97998,63.46987 -62.16988,113.77977 -125.03975,128.39974 -2.46999,0.57 -4.94999,1.07999 -7.45998,1.53999 -6.55999,0.85 -13.23998,1.28 -20.01996,1.28 H 636.92 c 0.9,-36.71992 13.71997,-70.47986 34.73993,-97.5598 0.27,-0.38 0.57,-0.75 0.86,-1.12 0.1,-0.12 0.2,-0.25 0.3,-0.37 C 703.18987,604.01995 750.09977,579.44 802.75966,579.35 Z"
              id="path131"
-             style="fill:#3b82f6;fill-opacity:1;stroke-width:0.999998" />
+             style="mix-blend-mode:normal;fill:url(#linearGradient875);fill-opacity:1;stroke-width:0.999998" />
           <path
              class="st1"
              d="m 1382.56,378.32 v 1.19 c 0,0.88 -0.01,1.76 -0.02,2.64 -0.02,1.38 -0.06,2.74 -0.13,4.11 -0.34,8.75 -1.4,17.31 -3.11,25.63 0,0.03 -0.01,0.06 -0.02,0.1 -12.58,61.54 -60.27,110.32 -121.23,124.49 -2.39,0.55 -4.8,1.05 -7.23,1.49 -2.94,0.55 -5.92,1.01 -8.9,1.39 -2.49,0.32 -5,0.58 -7.53,0.77 -0.03,0.01 -0.05,0.01 -0.07,0.01 -2.53,0.12 -5.08,0.18 -7.64,0.18 H 636.93 c -0.01,-0.48 -0.01,-0.96 -0.01,-1.44 v -0.86 c 0.01,-1.07 0.03,-2.14 0.06,-3.2 0.87,-35.6 13.3,-68.33 33.68,-94.59 0.27,-0.37 0.56,-0.73 0.84,-1.08 25.44,-32.25 62.95,-54.55 105.73,-60.07 5.1,-0.5 10.28,-0.76 15.52,-0.76 z"
@@ -116,7 +146,7 @@
          aria-label="Digital"
          transform="matrix(0.37403166,0,0,0.35876466,64.930402,114.81049)"
          id="text840"
-         style="font-size:88.1944px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;white-space:pre;shape-inside:url(#rect842);fill:#111827;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+         style="font-size:88.1944px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;white-space:pre;shape-inside:url(#rect842);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
         <path
            d="m 288.9733,112.45368 h 26.01735 q 9.78958,0 17.3743,3.88055 7.58471,3.88056 11.72985,10.93611 4.23333,6.96736 4.23333,16.05138 0,9.08402 -4.23333,16.13957 -4.14514,6.96736 -11.72985,10.84791 -7.58472,3.88056 -17.3743,3.88056 H 288.9733 Z m 25.48818,54.06317 q 7.49653,0 13.14097,-2.91042 5.73263,-2.91041 8.81944,-8.11388 3.0868,-5.29167 3.0868,-12.17083 0,-6.87916 -3.0868,-12.08263 -3.08681,-5.29167 -8.81944,-8.20208 -5.64444,-2.91042 -13.14097,-2.91042 h -16.66874 v 46.39026 z"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:88.1944px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';fill:#111827;fill-opacity:1;stroke:none;stroke-width:1.00012;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
