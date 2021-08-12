@@ -7,7 +7,7 @@
      * see.
      */
     .active-speaker {
-        box-shadow: 0 0 $videoThumbnailSelectedBlurRadius 3px $videoThumbnailSelected
+        box-shadow: 0 0 $videoThumbnailSelectedBlurRadius 5px $videoThumbnailSelected
     }
 
     #filmstripRemoteVideos {
@@ -92,7 +92,7 @@
             border: 0;
             box-sizing: border-box;
             display: block;
-            margin: 2px;
+            margin: 6px;
         }
 
         video {

@@ -1340,8 +1340,9 @@ class Toolbox extends Component<Props> {
                     onMouseOut = { this._onMouseOut }
                     onMouseOver = { this._onMouseOver }>
                     <div className = 'toolbox-content-items'>
-                        <p className="toolbox-title">Danke für Dein vertrauen in SEF Digital! </p>
-                        <img src="images/custom/logo.svg" className="toolbox-logo" />
+                        <a href="https://sefdigital.de" target="_blank">
+                            <img src="images/custom/inwhite.svg" className="toolbox-logo" />
+                        </a>
                         {this._renderAudioButton()}
                         { this._renderVideoButton() }
                         { mainMenuAdditionalButtons }

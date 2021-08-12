@@ -168,7 +168,7 @@ class Filmstrip extends Component <Props> {
                 remoteVideoContainerClassName += ' has-overflow';
             }
 
-            filmstripRemoteVideosContainerStyle.width = _filmstripWidth;
+            filmstripRemoteVideosContainerStyle.width = _filmstripWidth - 10; // make some more space for margins and borders
             break;
         }
         }

@@ -473,10 +473,10 @@ class Thumbnail extends Component<Props, State> {
 
             styles = {
                 thumbnail: {
-                    height: `${_height}px`,
-                    minHeight: `${_height}px`,
-                    minWidth: `${_width}px`,
-                    width: `${_width}px`
+                    height: `${_height - 4}px`,
+                    minHeight: `${_height - 4}px`, 
+                    minWidth: `${_width - 5}px`,
+                    width: `${_width - 5}px`
                 },
                 avatar: {
                     height: `${avatarSize}px`,
