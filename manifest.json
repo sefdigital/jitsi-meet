@@ -1,27 +1,14 @@
 {
-  "android_package_name": "org.jitsi.meet",
-  "prefer_related_applications": true,
-  "related_applications": [
-    {
-      "id": "org.jitsi.meet",
-      "platform": "chromeos_play"
-    }
-  ],
-  "short_name": "Jitsi Meet",
-  "name": "Jitsi Meet",
+  "short_name": "SEF Digital Meet",
+  "name": "SEF Digital Meet",
   "icons": [
     {
-      "src": "static/pwa/icons/icon192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "images/custom/squarewhite.png",
+      "sizes": "512x512",
+      "type": "image/png"
     },
     {
-      "src": "static/pwa/icons/icon512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "static/pwa/icons/iconMask.png",
+      "src": "images/custom/squarewhite.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

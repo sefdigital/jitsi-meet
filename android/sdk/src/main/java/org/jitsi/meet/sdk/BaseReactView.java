@@ -97,7 +97,7 @@ public abstract class BaseReactView<ListenerT>
 
     /**
      * The listener (e.g. {@link JitsiMeetViewListener}) instance for reporting
-     * events occurring in Jitsi Meet.
+     * events occurring in SEF Digital Meet.
      */
     @Deprecated
     private ListenerT listener;

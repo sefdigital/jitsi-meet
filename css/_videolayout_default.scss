@@ -88,7 +88,7 @@
     &__toolbar {
         bottom: 0;
         height: $thumbnailToolbarHeight;
-        padding: 0 5px 0 5px;
+        padding: 0 8px 4px 8px;
     }
 
     &__toptoolbar {
@@ -439,7 +439,8 @@
 }
 .local-video-menu-trigger,
 .remote-video-menu-trigger {
-    margin-top: 7px;
+    margin-top: 10px;
+    margin-right: 4px;
 }
 
 /**
