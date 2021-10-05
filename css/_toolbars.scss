@@ -23,7 +23,7 @@
  * TODO: when the old filmstrip has been removed, remove the "new-" prefix.
  */
 .new-toolbox {
-    bottom: calc((#{$newToolbarSize} * 3) * -1);
+    bottom: calc((#{$newToolbarSize} * 2) * -1);
     left: 0;
     position: absolute;
     right: 0;
