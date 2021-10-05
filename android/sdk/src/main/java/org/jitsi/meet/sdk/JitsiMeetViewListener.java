@@ -19,7 +19,7 @@ package org.jitsi.meet.sdk;
 import java.util.Map;
 
 /**
- * Interface for listening to events coming from SEF Digital Meet.
+ * Interface for listening to events coming from Julian Schrömges Beratung.
  */
 @Deprecated
 public interface JitsiMeetViewListener {

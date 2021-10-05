@@ -353,7 +353,7 @@
         "answer": "Ответ",
         "audioCallTitle": "Входящий звонок",
         "decline": "Отклонить",
-        "productLabel": "из SEF Digital Meet",
+        "productLabel": "из Julian Schrömges Beratung",
         "videoCallTitle": "Входящий видеозвонок"
     },
     "info": {
@@ -541,7 +541,7 @@
         "newDeviceAction": "Использовать",
         "newDeviceAudioTitle": "Обнаружено новое аудиоустройство",
         "newDeviceCameraTitle": "Обнаружена новая камера",
-        "oldElectronClientDescription1": "Похоже, вы используете старую версию клиента SEF Digital Meet, которая имеет известные уязвимости в системе безопасности. Убедитесь, что вы обновили до нашей ",
+        "oldElectronClientDescription1": "Похоже, вы используете старую версию клиента Julian Schrömges Beratung, которая имеет известные уязвимости в системе безопасности. Убедитесь, что вы обновили до нашей ",
         "oldElectronClientDescription2": "последней версии",
         "oldElectronClientDescription3": " сейчас!",
         "passwordRemovedRemotely": "$t(lockRoomPasswordUppercase) удален другим участником.",
@@ -908,7 +908,7 @@
         "getHelp": "Справка",
         "go": "ОК",
         "goSmall": "ОК",
-        "headerTitle":"Сервер видеоконференцсвязи SEF Digital Meet",
+        "headerTitle":"Сервер видеоконференцсвязи Julian Schrömges Beratung",
         "headerSubtitle":"Защищенная высококачественная видеосвязь",
         "info": "Инфо",
         "join": "СОЗДАТЬ / ПРИСОЕДИНИТЬСЯ",

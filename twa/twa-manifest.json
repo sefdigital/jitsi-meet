@@ -1,8 +1,8 @@
 {
   "packageId": "org.jitsi.meet",
   "host": "meet.jit.si",
-  "name": "SEF Digital Meet",
-  "launcherName": "SEF Digital Meet",
+  "name": "Julian Schrömges Beratung",
+  "launcherName": "Julian Schrömges Beratung",
   "display": "standalone",
   "themeColor": "#17A0DB",
   "navigationColor": "#000000",

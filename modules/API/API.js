@@ -660,15 +660,15 @@ function sanitizeMouseEvent(event: MouseEvent) {
 
 /**
  * Implements API class that communicates with external API class and provides
- * interface to access SEF Digital Meet features by external applications that embed
- * SEF Digital Meet.
+ * interface to access Julian Schrömges Beratung features by external applications that embed
+ * Julian Schrömges Beratung.
  */
 class API {
     _enabled: boolean;
 
     /**
      * Initializes the API. Setups message event listeners that will receive
-     * information from external applications that embed SEF Digital Meet. It also
+     * information from external applications that embed Julian Schrömges Beratung. It also
      * sends a message to the external application that API is initialized.
      *
      * @param {Object} options - Optional parameters.

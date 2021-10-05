@@ -1,3 +1,3 @@
-# SEF Digital Meet SDK for Android
+# Julian Schrömges Beratung SDK for Android
 
 This document has been moved to [The Handbook](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-android-sdk).

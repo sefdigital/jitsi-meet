@@ -346,7 +346,7 @@
         "answer": "Відповідь",
         "audioCallTitle": "Вхідний виклик",
         "decline": "Відхилити",
-        "productLabel": "з SEF Digital Meet",
+        "productLabel": "з Julian Schrömges Beratung",
         "videoCallTitle": "Вхідний відеовиклик"
     },
     "info": {
@@ -508,7 +508,7 @@
     "me": "я",
     "notify": {
         "OldElectronAPPTitle": "Уразливість в системі безпеки!",
-        "oldElectronClientDescription1": "Схоже, ви використовуєте стару версію клієнта SEF Digital Meet, яка має відомі уразливості в системі безпеки. Переконайтеся, що ви оновились до нашої",
+        "oldElectronClientDescription1": "Схоже, ви використовуєте стару версію клієнта Julian Schrömges Beratung, яка має відомі уразливості в системі безпеки. Переконайтеся, що ви оновились до нашої",
         "oldElectronClientDescription2": "останньої версії",
         "oldElectronClientDescription3": " зараз!",
         "connectedOneMember": "{{name}} приєднався до конференції",

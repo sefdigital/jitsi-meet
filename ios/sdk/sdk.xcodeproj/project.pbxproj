@@ -307,7 +307,7 @@
 			dependencies = (
 			);
 			name = JitsiMeetSDK;
-			productName = "SEF Digital Meet SDK";
+			productName = "Julian Schrömges Beratung SDK";
 			productReference = 0BD906E51EC0C00300C8C18E /* JitsiMeetSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};

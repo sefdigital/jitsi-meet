@@ -1,16 +1,16 @@
-SEF Digital Meet Translation
+Julian Schrömges Beratung Translation
 ==========================
-SEF Digital Meet uses [i18next](http://i18next.com) library for translation.
+Julian Schrömges Beratung uses [i18next](http://i18next.com) library for translation.
 i18next uses separate json files for each language.
 
 
-Translating SEF Digital Meet
+Translating Julian Schrömges Beratung
 ======================
-The translation of SEF Digital Meet is handled editing manually the language files.
+The translation of Julian Schrömges Beratung is handled editing manually the language files.
 
 Development
 ===========
-If you want to add new functionality for SEF Digital Meet and you have texts that need to be translated you must add key and value in main.json file in English for each translatable text.
+If you want to add new functionality for Julian Schrömges Beratung and you have texts that need to be translated you must add key and value in main.json file in English for each translatable text.
 Than you can use the key to get the translated text for the current language.
 
 You can add translatable text in the HTML:

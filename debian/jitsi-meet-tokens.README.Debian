@@ -1,7 +1,7 @@
-Token authentication plugin for SEF Digital Meet
+Token authentication plugin for Julian Schrömges Beratung
 ----------------------------
 
-SEF Digital Meet is a WebRTC video conferencing application. This package contains
-Prosody plugin which enables token authentication in SEF Digital Meet installation.
+Julian Schrömges Beratung is a WebRTC video conferencing application. This package contains
+Prosody plugin which enables token authentication in Julian Schrömges Beratung installation.
 
  -- Pawel Domas <pawel.domas@jitsi.org>  Mon, 2 Nov 2015 14:45:00 -0600

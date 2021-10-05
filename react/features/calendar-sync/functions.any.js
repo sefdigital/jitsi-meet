@@ -163,7 +163,7 @@ function _parseCalendarEntry(event, knownDomains) {
 }
 
 /**
- * Retrieves a SEF Digital Meet URL from an event if present.
+ * Retrieves a Julian Schrömges Beratung URL from an event if present.
  *
  * @param {Object} event - The event to parse.
  * @param {Array<string>} knownDomains - The known domain names.

@@ -7,7 +7,7 @@ assignees: ''
 ---
 
 <!--
-Thank you for suggesting an idea to make SEF Digital Meet better.
+Thank you for suggesting an idea to make Julian Schrömges Beratung better.
 
 Please fill in as much of the template below as you're able.
 

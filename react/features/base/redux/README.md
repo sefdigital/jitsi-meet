@@ -1,6 +1,6 @@
-SEF Digital Meet - redux state persistence
+Julian Schrömges Beratung - redux state persistence
 ====================================
-SEF Digital Meet has a persistence layer that persists specific subtrees of the redux
+Julian Schrömges Beratung has a persistence layer that persists specific subtrees of the redux
 store/state into window.localStorage (on Web) or AsyncStorage (on mobile).
 
 Usage
@@ -21,7 +21,7 @@ in the `reducer.js` of the `base/settings` feature.
 
 If the second parameter is omitted, the entire feature state is persisted.
 
-When it's done, SEF Digital Meet will automatically persist these subtrees and
+When it's done, Julian Schrömges Beratung will automatically persist these subtrees and
 rehydrate them on startup.
 
 Throttling

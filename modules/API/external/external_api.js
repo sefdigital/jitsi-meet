@@ -237,7 +237,7 @@ function parseSizeParam(value) {
  */
 export default class JitsiMeetExternalAPI extends EventEmitter {
     /**
-     * Constructs new API instance. Creates iframe and loads SEF Digital Meet in it.
+     * Constructs new API instance. Creates iframe and loads Julian Schrömges Beratung in it.
      *
      * @param {string} domain - The domain name of the server that hosts the
      * conference.
@@ -401,7 +401,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
 
 
     /**
-     * Getter for the large video element in SEF Digital Meet.
+     * Getter for the large video element in Julian Schrömges Beratung.
      *
      * @returns {HTMLElement|undefined} - The large video.
      */
@@ -419,7 +419,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
     }
 
     /**
-     * Getter for participant specific video element in SEF Digital Meet.
+     * Getter for participant specific video element in Julian Schrömges Beratung.
      *
      * @param {string|undefined} participantId - Id of participant to return the video for.
      *
@@ -652,7 +652,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
      * id: participantId //participantId of the new dominant speaker
      * }}
      * {@code suspendDetected} - receives event notifications about detecting suspend event in host computer.
-     * {@code readyToClose} - all hangup operations are completed and SEF Digital Meet
+     * {@code readyToClose} - all hangup operations are completed and Julian Schrömges Beratung
      * is ready to be disposed.
      * @returns {void}
      *
@@ -678,7 +678,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
     }
 
     /**
-     * Removes the listeners and removes the SEF Digital Meet frame.
+     * Removes the listeners and removes the Julian Schrömges Beratung frame.
      *
      * @returns {void}
      */
@@ -940,7 +940,7 @@ export default class JitsiMeetExternalAPI extends EventEmitter {
     }
 
     /**
-     * Returns the iframe that loads SEF Digital Meet.
+     * Returns the iframe that loads Julian Schrömges Beratung.
      *
      * @returns {HTMLElement} The iframe.
      */

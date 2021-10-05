@@ -23,14 +23,14 @@ if (typeof API_ID === 'number') {
 }
 
 /**
- * The instance of Transport class that will be used by SEF Digital Meet.
+ * The instance of Transport class that will be used by Julian Schrömges Beratung.
  *
  * @type {Transport}
  */
 let transport;
 
 /**
- * Returns the instance of Transport class that will be used by SEF Digital Meet.
+ * Returns the instance of Transport class that will be used by Julian Schrömges Beratung.
  *
  * @returns {Transport}
  */
