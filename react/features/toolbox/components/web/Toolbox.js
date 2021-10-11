@@ -1252,7 +1252,7 @@ class Toolbox extends Component<Props, State> {
 
                     <div className='toolbox-content-items'>
                         <a href="https://www.versicherungsmakler-js.de/" target="_blank">
-                            <img src="images/custom/inwhite.svg" className="toolbox-logo" />
+                            <img src="images/custom/inwhite.svg" className="toolbox-logo" style={{backgroundColor: "white"}} />
                         </a>
                         {mainMenuButtons.map(({ Content, key, ...rest }) => Content !== Separator && (
                             <Content
