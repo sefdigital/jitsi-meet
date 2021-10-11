@@ -82,10 +82,9 @@ class LargeVideo extends Component<Props> {
                 style={style}>
                 
                 {/* custom background */}
-                <div>
-                    <style dangerouslySetInnerHTML={{ __html: "#blurredBackgroundContainer{width:100vw;height:100vh;display:block;overflow:hidden}#blurredBackground{position:absolute;top:-5%;left:-5%;display:block;min-width:110%;min-height:110%;filter:blur(89px);-webkit-filter:blur(89px)}#contentContainer{position:absolute;top:0;left:0;width:100%;height:100%;display:block;overflow:scroll}.color-blur{width:200%;height:150%;display:block;position:absolute;border-radius:50%}" }} /><div id="blurredBackgroundContainer"><div id="blurredBackground" style={{ background: 'linear-gradient(3deg, rgb(79, 60, 140) 0%, rgb(115, 88, 204) 100%)', filter: 'blur(89px)' }}><div className="colorBlur1 color-blur" style={{ top: '-90%', left: '35%', background: 'radial-gradient(at 50% 50%, rgb(75, 70, 161) 0%, rgb(104, 97, 224) 100%)' }} /><div className="colorBlur1 color-blur" style={{ top: '-83%', left: '46%', background: 'rgba(160, 7, 57, 0.4)' }} /><div className="colorBlur1 color-blur" style={{ top: '0%', left: '-27%', background: 'rgba(44, 119, 156, 0.4)' }} /></div></div>
-                </div>
-
+                <div style={{ "width": "100vw", "height": "100vh", "position": "absolute", "top": "0", "left": "0", "zIndex": "10", "background": "url(https://beratung.versicherungsmakler-js.de/images/custom/inwhite.svg) center/contain no-repeat, #fff" }}></div>
+                <div style={{ "width": "100vw", "height": "100vh", "position": "absolute", "top": "0", "left": "0", "zIndex": "20", "backdropFilter": "blur(5px)" }}></div>
+                
                 <SharedVideo />
                 <div id = 'etherpad' />
 
