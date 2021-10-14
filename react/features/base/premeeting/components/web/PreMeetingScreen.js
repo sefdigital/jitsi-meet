@@ -50,7 +50,7 @@ type Props = {
     /**
      * The 'Skip prejoin' button to be rendered (if any).
      */
-     skipPrejoinButton?: React$Node,
+    skipPrejoinButton?: React$Node,
 
     /**
      * Title of the screen.
@@ -114,25 +114,28 @@ class PreMeetingScreen extends PureComponent<Props> {
         } : {};
 
         return (
-            <div className = { containerClassName }>
-                <div style = { style }>
-                    <div className = 'content'>
+            <div className={containerClassName}>
+                <div style={style}>
+                    <div className='content'>
                         <ConnectionStatus />
 
-                        <div className = 'content-controls'>
-                            <h1 className = 'title'>
-                                { title }
+                        <div className='content-controls'>
+                            <h1 className='title'>
+                                {title}
                             </h1>
-                            { children }
-                            { _buttons.length && <Toolbox toolbarButtons = { _buttons } /> }
-                            { skipPrejoinButton }
-                            { showDeviceStatus && <DeviceStatus /> }
+                            <p style={{ "marginBottom": "2rem", "textAlign": "center", "color": "white" }}>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat.
+                            </p>
+                            {children}
+                            {_buttons.length && <Toolbox toolbarButtons={_buttons} />}
+                            {skipPrejoinButton}
+                            {showDeviceStatus && <DeviceStatus />}
                         </div>
                     </div>
                 </div>
                 <Preview
-                    videoMuted = { videoMuted }
-                    videoTrack = { videoTrack } />
+                    videoMuted={videoMuted}
+                    videoTrack={videoTrack} />
             </div>
         );
     }
