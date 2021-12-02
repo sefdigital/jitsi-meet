@@ -103,6 +103,7 @@ class WaitForOwnerDialog extends PureComponent<Props> {
                 onSubmit = { this._onIAmHost }
                 titleKey = { t('dialog.WaitingForHostTitle') }
                 width={'small'}
+                id = {"testiosndf"}
                 style={{ border: "4px solid !important"}}
             >
                 <span>
