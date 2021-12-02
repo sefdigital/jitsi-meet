@@ -199,5 +199,15 @@
     </noscript>
     <!--#include virtual="body.html" -->
     <div id="react" role="main"></div>
+    <script>
+            document.onclick = function () {
+                setTimeout(() => {
+                    const b = document.getElementById("modal-dialog-ok-button");
+                    console.log(b.innerText);
+                    if (b && b.innerText.includes("Ich leite"))
+                        b.setAttribute("style", "background-color: transparent !important; color: rgb(159, 176, 204) !important;");
+                }, 50);
+            };
+    </script>
   </body>
 </html>
