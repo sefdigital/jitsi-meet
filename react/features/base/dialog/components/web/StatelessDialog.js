@@ -312,7 +312,8 @@ class StatelessDialog extends Component<Props> {
                 id = { OK_BUTTON_ID }
                 isDisabled = { this.props.okDisabled }
                 key = 'submit'
-                onClick = { this._onSubmit }
+                onClick={this._onSubmit}
+                style={this.props.okKey.includes("Ich leite das Meeting") && {background: "transparent !important", color: "rgb(159, 176, 204) !important"} }
                 type = 'button'>
                 { t(this.props.okKey || 'dialog.Ok') }
             </Button>
