@@ -504,14 +504,17 @@ class Thumbnail extends Component<Props, State> {
             left += horizontalOffset;
         }
 
+        left += 5;
+
         styles = {
             thumbnail: {
                 ...style,
                 left,
-                height: `${_height}px`,
-                minHeight: `${_height}px`,
-                minWidth: `${_width}px`,
-                width: `${_width}px`
+                height: `${_height - 6}px`,
+                minHeight: `${_height - 6}px`,
+                minWidth: `${_width - 10}px`,
+                width: `${_width - 10}px`,
+                marginTop: `5px`
             },
             avatar: {
                 height: `${avatarSize}px`,

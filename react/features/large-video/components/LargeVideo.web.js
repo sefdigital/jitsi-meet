@@ -83,7 +83,7 @@ class LargeVideo extends Component<Props> {
                 
                 {/* custom background */}
                 <div style={{ "width": "100vw", "height": "100vh", "position": "absolute", "top": "0", "left": "0", "background": "url(https://beratung.versicherungsmakler-js.de/images/custom/inwhite.svg) center/contain no-repeat, #fff" }}></div>
-                <div style={{ "width": "100vw", "height": "100vh", "position": "absolute", "top": "0", "left": "0", "backdropFilter": "blur(2px)" }}></div>
+                <div style={{ "width": "100vw", "height": "100vh", "position": "absolute", "top": "0", "left": "0", "backdropFilter": "blur(4px)" }}></div>
                 
                 <SharedVideo />
                 <div id = 'etherpad' />
