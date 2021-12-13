@@ -124,7 +124,7 @@ class PreMeetingScreen extends PureComponent<Props> {
                                 {title}
                             </h1>
                             <p style={{ "marginBottom": "2rem", "textAlign": "center", "color": "white" }}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat.
+                                Bitte geben Sie ihren Namen ein und betreten anschließend mit dem blauen Button den Meeting-Raum.
                             </p>
                             {children}
                             {_buttons.length && <Toolbox toolbarButtons={_buttons} />}
