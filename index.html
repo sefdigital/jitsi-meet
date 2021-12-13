@@ -207,6 +207,12 @@
                     if (b && b.innerText.includes("Raum öffnen"))
                         b.setAttribute("style", "background-color: transparent !important; color: rgb(159, 176, 204) !important;");
                 }, 50);
+                setTimeout(() => {
+                    const b = document.getElementById("modal-dialog-ok-button");
+                    console.log(b.innerText);
+                    if (b && b.innerText.includes("Raum öffnen"))
+                        b.setAttribute("style", "background-color: transparent !important; color: rgb(159, 176, 204) !important;");
+                }, 100);
             };
     </script>
   </body>
