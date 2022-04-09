@@ -19,7 +19,7 @@ package org.jitsi.meet.sdk;
 import java.util.Map;
 
 /**
- * Interface for listening to events coming from Julian Schrömges Beratung.
+ * Interface for listening to events coming from Investmentberatung JS.
  */
 @Deprecated
 public interface JitsiMeetViewListener {

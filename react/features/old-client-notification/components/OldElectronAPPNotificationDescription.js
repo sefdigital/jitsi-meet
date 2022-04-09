@@ -16,7 +16,7 @@ type Props = {
 };
 
 /**
- * A component that renders the description of the notification for old Julian Schrömges Beratung Electron clients.
+ * A component that renders the description of the notification for old Investmentberatung JS Electron clients.
  *
  * @extends AbstractApp
  */

@@ -1,7 +1,7 @@
-Prosody configuration for Julian Schrömges Beratung for Debian
+Prosody configuration for Investmentberatung JS for Debian
 ----------------------------
 
-Julian Schrömges Beratung is a WebRTC video conferencing application. This package contains 
-configuration of prosody which are needed for Julian Schrömges Beratung to work.
+Investmentberatung JS is a WebRTC video conferencing application. This package contains 
+configuration of prosody which are needed for Investmentberatung JS to work.
 
  -- Yasen Pramatarov <yasen@bluejimp.com>  Mon, 30 Jun 2014 23:05:18 +0100

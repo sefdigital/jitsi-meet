@@ -3,9 +3,9 @@
 import { browser } from '../../../react/features/base/lib-jitsi-meet';
 
 /**
- * Returns true if Julian Schrömges Beratung is running in too old jitsi-meet-electron app and false otherwise.
+ * Returns true if Investmentberatung JS is running in too old jitsi-meet-electron app and false otherwise.
  *
- * @returns {boolean} - True if Julian Schrömges Beratung is running in too old jitsi-meet-electron app and false otherwise.
+ * @returns {boolean} - True if Investmentberatung JS is running in too old jitsi-meet-electron app and false otherwise.
  */
 export function isOldJitsiMeetElectronApp() {
     if (!browser.isElectron()) {

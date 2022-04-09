@@ -35,7 +35,7 @@ General questions regarding usage, installation, etc. should be posted at https:
 
 ### Server information:
 
-- Julian Schrömges Beratung version:
+- Investmentberatung JS version:
 - Operating System:
 
 ### Client information:

@@ -5,11 +5,11 @@ import { parseURLParams } from '../react/features/base/util/parseURLParams';
 
 /**
  * Implements external connect using createConnectionExternally function defined
- * in external_connect.js for Julian Schrömges Beratung. Parses the room name and JSON Web
+ * in external_connect.js for Investmentberatung JS. Parses the room name and JSON Web
  * Token (JWT) from the URL and executes createConnectionExternally.
  *
- * NOTE: If you are using lib-jitsi-meet without Julian Schrömges Beratung, you should use this
- * file as reference only because the implementation is Julian Schrömges Beratung-specific.
+ * NOTE: If you are using lib-jitsi-meet without Investmentberatung JS, you should use this
+ * file as reference only because the implementation is Investmentberatung JS-specific.
  *
  * NOTE: For optimal results this file should be included right after
  * external_connect.js.
