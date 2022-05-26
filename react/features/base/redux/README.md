@@ -1,6 +1,6 @@
-Investmentberatung JS - redux state persistence
+Investmentberatung SJ - redux state persistence
 ====================================
-Investmentberatung JS has a persistence layer that persists specific subtrees of the redux
+Investmentberatung SJ has a persistence layer that persists specific subtrees of the redux
 store/state into window.localStorage (on Web) or AsyncStorage (on mobile).
 
 Usage
@@ -21,7 +21,7 @@ in the `reducer.js` of the `base/settings` feature.
 
 If the second parameter is omitted, the entire feature state is persisted.
 
-When it's done, Investmentberatung JS will automatically persist these subtrees and
+When it's done, Investmentberatung SJ will automatically persist these subtrees and
 rehydrate them on startup.
 
 Throttling

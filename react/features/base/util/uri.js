@@ -231,7 +231,7 @@ export function parseStandardURIString(str: string) {
     // XXX A URI string as defined by RFC 3986 does not contain any whitespace.
     // Usually, a browser will have already encoded any whitespace. In order to
     // avoid potential later problems related to whitespace in URI, strip any
-    // whitespace. Anyway, the Investmentberatung JS app is not known to utilize unencoded
+    // whitespace. Anyway, the Investmentberatung SJ app is not known to utilize unencoded
     // whitespace so the stripping is deemed safe.
     str = str.replace(/\s/g, '');
 
@@ -311,11 +311,11 @@ export function parseStandardURIString(str: string) {
 }
 
 /**
- * Parses a specific URI which (supposedly) references a Investmentberatung JS resource
+ * Parses a specific URI which (supposedly) references a Investmentberatung SJ resource
  * (location).
  *
  * @param {(string|undefined)} uri - The URI to parse which (supposedly)
- * references a Investmentberatung JS resource (location).
+ * references a Investmentberatung SJ resource (location).
  * @public
  * @returns {{
  *     contextRoot: string,

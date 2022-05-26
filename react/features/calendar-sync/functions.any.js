@@ -163,7 +163,7 @@ function _parseCalendarEntry(event, knownDomains) {
 }
 
 /**
- * Retrieves a Investmentberatung JS URL from an event if present.
+ * Retrieves a Investmentberatung SJ URL from an event if present.
  *
  * @param {Object} event - The event to parse.
  * @param {Array<string>} knownDomains - The known domain names.

@@ -7,7 +7,7 @@ assignees: ''
 ---
 
 <!--
-Thank you for suggesting an idea to make Investmentberatung JS better.
+Thank you for suggesting an idea to make Investmentberatung SJ better.
 
 Please fill in as much of the template below as you're able.
 

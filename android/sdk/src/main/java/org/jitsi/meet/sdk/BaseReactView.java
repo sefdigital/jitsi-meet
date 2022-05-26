@@ -97,7 +97,7 @@ public abstract class BaseReactView<ListenerT>
 
     /**
      * The listener (e.g. {@link JitsiMeetViewListener}) instance for reporting
-     * events occurring in Investmentberatung JS.
+     * events occurring in Investmentberatung SJ.
      */
     @Deprecated
     private ListenerT listener;

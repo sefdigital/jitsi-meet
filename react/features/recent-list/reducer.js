@@ -103,7 +103,7 @@ function _appWillMount(state) {
             return state;
         }
 
-        // In an enterprise/internal build of Investmentberatung JS for Android and iOS we
+        // In an enterprise/internal build of Investmentberatung SJ for Android and iOS we
         // had recent-list's state as an object with property list.
         const { list } = state;
 

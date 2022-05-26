@@ -19,7 +19,7 @@ package org.jitsi.meet.sdk;
 import java.util.Map;
 
 /**
- * Interface for listening to events coming from Investmentberatung JS.
+ * Interface for listening to events coming from Investmentberatung SJ.
  */
 @Deprecated
 public interface JitsiMeetViewListener {

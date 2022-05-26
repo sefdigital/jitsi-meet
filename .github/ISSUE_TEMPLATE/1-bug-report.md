@@ -35,7 +35,7 @@ General questions regarding usage, installation, etc. should be posted at https:
 
 ### Server information:
 
-- Investmentberatung JS version:
+- Investmentberatung SJ version:
 - Operating System:
 
 ### Client information:

@@ -1,7 +1,7 @@
-Prosody configuration for Investmentberatung JS for Debian
+Prosody configuration for Investmentberatung SJ for Debian
 ----------------------------
 
-Investmentberatung JS is a WebRTC video conferencing application. This package contains 
-configuration of prosody which are needed for Investmentberatung JS to work.
+Investmentberatung SJ is a WebRTC video conferencing application. This package contains 
+configuration of prosody which are needed for Investmentberatung SJ to work.
 
  -- Yasen Pramatarov <yasen@bluejimp.com>  Mon, 30 Jun 2014 23:05:18 +0100

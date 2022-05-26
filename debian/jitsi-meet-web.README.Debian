@@ -1,7 +1,7 @@
-Investmentberatung JS for Debian
+Investmentberatung SJ for Debian
 ----------------------------
 
-This is a WebRTC frontend of the video conferencing tool Investmentberatung JS. It depends on the
+This is a WebRTC frontend of the video conferencing tool Investmentberatung SJ. It depends on the
 jitsi-videobridge package, which is a SFU (Selective Forwarding Unit) and both packages
 are designed to work together.
 

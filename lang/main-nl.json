@@ -356,7 +356,7 @@
         "answer": "Beantwoorden",
         "audioCallTitle": "Inkomende oproep",
         "decline": "Negeren",
-        "productLabel": "vanuit Investmentberatung JS",
+        "productLabel": "vanuit Investmentberatung SJ",
         "videoCallTitle": "Inkomende video-oproep"
     },
     "info": {
@@ -518,7 +518,7 @@
         "newDeviceAudioTitle": "Nieuw audioapparaat gedetecteerd",
         "newDeviceAction": "Gebruik",
         "OldElectronAPPTitle": "Beveiligingskwetsbaarheid!",
-        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van Investmentberatung JS gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
+        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van Investmentberatung SJ gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
         "oldElectronClientDescription2": "nieuwste versie",
         "oldElectronClientDescription3": "!"
     },
@@ -896,7 +896,7 @@
         "getHelp": "Hulp krijgen",
         "go": "GAAN",
         "goSmall": "GAAN",
-        "headerTitle": "Investmentberatung JS",
+        "headerTitle": "Investmentberatung SJ",
         "headerSubtitle": "Veilige vergaderingen van hoge kwaliteit",
         "info": "Informatie",
         "join": "AANMAKEN / DEELNEMEN",

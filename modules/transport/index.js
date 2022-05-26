@@ -23,14 +23,14 @@ if (typeof API_ID === 'number') {
 }
 
 /**
- * The instance of Transport class that will be used by Investmentberatung JS.
+ * The instance of Transport class that will be used by Investmentberatung SJ.
  *
  * @type {Transport}
  */
 let transport;
 
 /**
- * Returns the instance of Transport class that will be used by Investmentberatung JS.
+ * Returns the instance of Transport class that will be used by Investmentberatung SJ.
  *
  * @returns {Transport}
  */

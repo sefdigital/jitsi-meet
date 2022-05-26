@@ -6,7 +6,7 @@ const webpack = require('webpack');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 /**
- * The URL of the Investmentberatung JS deployment to be proxy to in the context of
+ * The URL of the Investmentberatung SJ deployment to be proxy to in the context of
  * development with webpack-dev-server.
  */
 const devServerProxyTarget

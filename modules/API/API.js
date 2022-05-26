@@ -660,15 +660,15 @@ function sanitizeMouseEvent(event: MouseEvent) {
 
 /**
  * Implements API class that communicates with external API class and provides
- * interface to access Investmentberatung JS features by external applications that embed
- * Investmentberatung JS.
+ * interface to access Investmentberatung SJ features by external applications that embed
+ * Investmentberatung SJ.
  */
 class API {
     _enabled: boolean;
 
     /**
      * Initializes the API. Setups message event listeners that will receive
-     * information from external applications that embed Investmentberatung JS. It also
+     * information from external applications that embed Investmentberatung SJ. It also
      * sends a message to the external application that API is initialized.
      *
      * @param {Object} options - Optional parameters.

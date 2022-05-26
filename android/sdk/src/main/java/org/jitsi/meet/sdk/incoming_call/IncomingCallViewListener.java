@@ -19,7 +19,7 @@ package org.jitsi.meet.sdk.incoming_call;
 import java.util.Map;
 
 /**
- * Interface for listening to events coming from Investmentberatung JS, related to
+ * Interface for listening to events coming from Investmentberatung SJ, related to
  * {@link IncomingCallView}.
  */
 public interface IncomingCallViewListener {

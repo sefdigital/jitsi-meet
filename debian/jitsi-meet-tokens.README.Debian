@@ -1,7 +1,7 @@
-Token authentication plugin for Investmentberatung JS
+Token authentication plugin for Investmentberatung SJ
 ----------------------------
 
-Investmentberatung JS is a WebRTC video conferencing application. This package contains
-Prosody plugin which enables token authentication in Investmentberatung JS installation.
+Investmentberatung SJ is a WebRTC video conferencing application. This package contains
+Prosody plugin which enables token authentication in Investmentberatung SJ installation.
 
  -- Pawel Domas <pawel.domas@jitsi.org>  Mon, 2 Nov 2015 14:45:00 -0600

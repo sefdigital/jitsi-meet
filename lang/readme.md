@@ -1,16 +1,16 @@
-Investmentberatung JS Translation
+Investmentberatung SJ Translation
 ==========================
-Investmentberatung JS uses [i18next](http://i18next.com) library for translation.
+Investmentberatung SJ uses [i18next](http://i18next.com) library for translation.
 i18next uses separate json files for each language.
 
 
-Translating Investmentberatung JS
+Translating Investmentberatung SJ
 ======================
-The translation of Investmentberatung JS is handled editing manually the language files.
+The translation of Investmentberatung SJ is handled editing manually the language files.
 
 Development
 ===========
-If you want to add new functionality for Investmentberatung JS and you have texts that need to be translated you must add key and value in main.json file in English for each translatable text.
+If you want to add new functionality for Investmentberatung SJ and you have texts that need to be translated you must add key and value in main.json file in English for each translatable text.
 Than you can use the key to get the translated text for the current language.
 
 You can add translatable text in the HTML:

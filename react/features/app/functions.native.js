@@ -29,7 +29,7 @@ export function getName() {
 }
 
 /**
- * Returns the path to the Investmentberatung JS SDK bundle on iOS. On Android it will be
+ * Returns the path to the Investmentberatung SJ SDK bundle on iOS. On Android it will be
  * undefined.
  *
  * @returns {string|undefined}
