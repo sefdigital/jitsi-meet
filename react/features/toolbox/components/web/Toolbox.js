@@ -398,7 +398,7 @@ class Toolbox extends Component<Props, State> {
 
         if (!this.state.reactionsShortcutsRegistered
             && (prevProps._reactionsEnabled !== this.props._reactionsEnabled
-            || prevProps._participantCount !== this.props._participantCount)) {
+                || prevProps._participantCount !== this.props._participantCount)) {
             if (this.props._reactionsEnabled && this.props._participantCount > 1) {
                 // eslint-disable-next-line react/no-did-update-set-state
                 this.setState({
@@ -439,7 +439,7 @@ class Toolbox extends Component<Props, State> {
      * @returns {void}
      */
     componentWillUnmount() {
-        [ 'A', 'C', 'D', 'R', 'S' ].forEach(letter =>
+        ['A', 'C', 'D', 'R', 'S'].forEach(letter =>
             APP.keyboardshortcut.unregisterShortcut(letter));
 
         if (this.props._reactionsEnabled && this.state.reactionsShortcutsRegistered) {
@@ -457,14 +457,13 @@ class Toolbox extends Component<Props, State> {
      */
     render() {
         const { _chatOpen, _visible, _toolbarButtons } = this.props;
-        const rootClassNames = `new-toolbox ${_visible ? 'visible' : ''} ${
-            _toolbarButtons.length ? '' : 'no-buttons'} ${_chatOpen ? 'shift-right' : ''}`;
+        const rootClassNames = `new-toolbox ${_visible ? 'visible' : ''} ${_toolbarButtons.length ? '' : 'no-buttons'} ${_chatOpen ? 'shift-right' : ''}`;
 
         return (
             <div
-                className = { rootClassNames }
-                id = 'new-toolbox'>
-                { this._renderToolboxContent() }
+                className={rootClassNames}
+                id='new-toolbox'>
+                {this._renderToolboxContent()}
             </div>
         );
     }
@@ -1042,11 +1041,11 @@ class Toolbox extends Component<Props, State> {
      */
     _onShortcutToggleScreenshare() {
         sendAnalytics(createShortcutEvent(
-                'toggle.screen.sharing',
-                ACTION_SHORTCUT_TRIGGERED,
-                {
-                    enable: !this.props._screenSharing
-                }));
+            'toggle.screen.sharing',
+            ACTION_SHORTCUT_TRIGGERED,
+            {
+                enable: !this.props._screenSharing
+            }));
 
         this._doToggleScreenshare();
     }
@@ -1127,9 +1126,9 @@ class Toolbox extends Component<Props, State> {
     _onToolbarToggleFullScreen() {
         sendAnalytics(createToolbarEvent(
             'toggle.fullscreen',
-                {
-                    enable: !this.props._fullScreen
-                }));
+            {
+                enable: !this.props._fullScreen
+            }));
         this._closeOverflowMenuIfOpen();
         this._doToggleFullScreen();
     }
@@ -1239,62 +1238,62 @@ class Toolbox extends Component<Props, State> {
         const { mainMenuButtons, overflowMenuButtons } = this._getVisibleButtons();
 
         return (
-            <div className = { containerClassName }>
+            <div className={containerClassName}>
                 <div
-                    className = 'toolbox-content-wrapper'
-                    onFocus = { this._onTabIn }
-                    { ...(_isMobile ? {} : {
+                    className='toolbox-content-wrapper'
+                    onFocus={this._onTabIn}
+                    {...(_isMobile ? {} : {
                         onMouseOut: this._onMouseOut,
                         onMouseOver: this._onMouseOver
-                    }) }>
+                    })}>
 
-                    { showDominantSpeakerName && <DominantSpeakerName /> }
+                    {showDominantSpeakerName && <DominantSpeakerName />}
 
                     <div className='toolbox-content-items'>
                         <a href="https://www.versicherungsmakler-js.de/" target="_blank">
-                            <img src="images/custom/inwhite.svg" className="toolbox-logo" style={{backgroundColor: "white"}} />
+                            <img src="images/custom/inwhite.svg" className="toolbox-logo" />
                         </a>
                         {mainMenuButtons.map(({ Content, key, ...rest }) => Content !== Separator && (
                             <Content
-                                { ...rest }
-                                key = { key } />))}
+                                {...rest}
+                                key={key} />))}
 
                         {Boolean(overflowMenuButtons.length) && (
                             <OverflowMenuButton
-                                ariaControls = 'overflow-menu'
-                                isOpen = { _overflowMenuVisible }
-                                key = 'overflow-menu'
-                                onVisibilityChange = { this._onSetOverflowVisible }
-                                showMobileReactions = {
+                                ariaControls='overflow-menu'
+                                isOpen={_overflowMenuVisible}
+                                key='overflow-menu'
+                                onVisibilityChange={this._onSetOverflowVisible}
+                                showMobileReactions={
                                     _reactionsEnabled && overflowMenuButtons.find(({ key }) => key === 'raisehand')
                                 }>
                                 <ul
-                                    aria-label = { t(toolbarAccLabel) }
-                                    className = 'overflow-menu'
-                                    id = 'overflow-menu'
-                                    onKeyDown = { this._onEscKey }
-                                    role = 'menu'>
+                                    aria-label={t(toolbarAccLabel)}
+                                    className='overflow-menu'
+                                    id='overflow-menu'
+                                    onKeyDown={this._onEscKey}
+                                    role='menu'>
                                     {overflowMenuButtons.map(({ group, key, Content, ...rest }, index, arr) => {
                                         const showSeparator = index > 0 && arr[index - 1].group !== group;
 
                                         return (key !== 'raisehand' || !_reactionsEnabled)
-                                            && <Fragment key = { `f${key}` }>
-                                                {showSeparator && <Separator key = { `hr${group}` } />}
+                                            && <Fragment key={`f${key}`}>
+                                                {showSeparator && <Separator key={`hr${group}`} />}
                                                 <Content
-                                                    { ...rest }
-                                                    key = { key }
-                                                    showLabel = { true } />
+                                                    {...rest}
+                                                    key={key}
+                                                    showLabel={true} />
                                             </Fragment>
-                                        ;
+                                            ;
                                     })}
                                 </ul>
                             </OverflowMenuButton>
                         )}
 
                         <HangupButton
-                            customClass = 'hangup-button'
-                            key = 'hangup-button'
-                            visible = { isToolbarButtonEnabled('hangup', _toolbarButtons) } />
+                            customClass='hangup-button'
+                            key='hangup-button'
+                            visible={isToolbarButtonEnabled('hangup', _toolbarButtons)} />
                     </div>
                 </div>
             </div>
