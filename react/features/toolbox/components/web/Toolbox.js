@@ -1250,7 +1250,7 @@ class Toolbox extends Component<Props, State> {
                     {showDominantSpeakerName && <DominantSpeakerName />}
 
                     <div className='toolbox-content-items'>
-                        <a href="https://www.versicherungsmakler-js.de/" target="_blank">
+                        <a href="https://sefdigital.de/" target="_blank">
                             <img src="images/custom/inwhite.svg" className="toolbox-logo" />
                         </a>
                         {mainMenuButtons.map(({ Content, key, ...rest }) => Content !== Separator && (
