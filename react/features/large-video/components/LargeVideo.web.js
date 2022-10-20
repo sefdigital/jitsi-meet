@@ -21,12 +21,12 @@ type Props = {
     /**
      * The user selected background color.
      */
-     _customBackgroundColor: string,
+    _customBackgroundColor: string,
 
     /**
      * The user selected background image url.
      */
-     _customBackgroundImageUrl: string,
+    _customBackgroundImageUrl: string,
 
     /**
      * Fetches the branding data.
@@ -77,24 +77,64 @@ class LargeVideo extends Component<Props> {
 
         return (
             <div
-                className = { className }
-                id = 'largeVideoContainer'
+                className={className}
+                id='largeVideoContainer'
                 style={style}>
-                
-                {/* custom background */}
-                <div style={{ "width": "100vw", "height": "100vh", "position": "absolute", "top": "0", "left": "0", "background": "url(https://beratung.versicherungsmakler-js.de/images/custom/big.jpg) center/contain no-repeat, #fff" }}></div>
-                
-                <SharedVideo />
-                <div id = 'etherpad' />
 
-                <div id = 'dominantSpeaker'>
-                    <div className = 'dynamic-shadow' />
-                    <div id = 'dominantSpeakerAvatarContainer' />
+                {/* custom background */}
+                <div>
+                    <style dangerouslySetInnerHTML={{ __html: "#blurredBackgroundContainer{position:absolute;top:0;left:0;width:100%;height:100%;display:block;overflow:hidden}#blurredBackground{position:absolute;top:-5%;left:-5%;display:block;min-width:110%;min-height:110%;filter:blur(79px);-webkit-filter:blur(79px)}#contentContainer{position:absolute;top:0;left:0;width:100%;height:100%;display:block;overflow:scroll}.color-blur{width:200%;height:150%;display:block;position:absolute;border-radius:50%}" }} />
+
+                    <div id="blurredBackgroundContainer">
+                        <div
+                            id="blurredBackground"
+                            style={{
+                                background:
+                                    "linear-gradient(74deg, rgb(20, 52, 78) 0%, rgb(24, 61, 92) 100%)",
+                                filter: "blur(79px)"
+                            }}
+                        >
+                            <div
+                                className="colorBlur1 color-blur"
+                                style={{
+                                    top: "-64%",
+                                    left: "83%",
+                                    background:
+                                        "radial-gradient(at 50% 50%, rgb(248, 249, 250) 0%, rgb(255, 255, 255) 100%)"
+                                }}
+                            />
+                            <div
+                                className="colorBlur1 color-blur"
+                                style={{
+                                    top: "-74%",
+                                    left: "-3%",
+                                    background: "rgba(67, 117, 177, 0.4)"
+                                }}
+                            />
+                            <div
+                                className="colorBlur1 color-blur"
+                                style={{
+                                    top: "52%",
+                                    left: "-10%",
+                                    background: "rgba(252, 252, 252, 0.4)"
+                                }}
+                            />
+                        </div>
+                    </div>
+
                 </div>
-                <div id = 'remotePresenceMessage' />
-                <span id = 'remoteConnectionMessage' />
-                <div id = 'largeVideoElementsContainer'>
-                    <div id = 'largeVideoBackgroundContainer' />
+
+                <SharedVideo />
+                <div id='etherpad' />
+
+                <div id='dominantSpeaker'>
+                    <div className='dynamic-shadow' />
+                    <div id='dominantSpeakerAvatarContainer' />
+                </div>
+                <div id='remotePresenceMessage' />
+                <span id='remoteConnectionMessage' />
+                <div id='largeVideoElementsContainer'>
+                    <div id='largeVideoBackgroundContainer' />
 
                     {/*
                       * FIXME: the architecture of elements related to the large
@@ -105,17 +145,17 @@ class LargeVideo extends Component<Props> {
                       * largeVideoWrapper in order to hide/show them.
                       */}
                     <div
-                        id = 'largeVideoWrapper'
-                        role = 'figure' >
+                        id='largeVideoWrapper'
+                        role='figure' >
                         <video
-                            autoPlay = { !_noAutoPlayVideo }
-                            id = 'largeVideo'
-                            muted = { true }
-                            playsInline = { true } /* for Safari on iOS to work */ />
+                            autoPlay={!_noAutoPlayVideo}
+                            id='largeVideo'
+                            muted={true}
+                            playsInline={true} /* for Safari on iOS to work */ />
                     </div>
                 </div>
-                { interfaceConfig.DISABLE_TRANSCRIPTION_SUBTITLES
-                    || <Captions /> }
+                {interfaceConfig.DISABLE_TRANSCRIPTION_SUBTITLES
+                    || <Captions />}
             </div>
         );
     }
